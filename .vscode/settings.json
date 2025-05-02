@@ -1,5 +1,5 @@
 {
 	"editor.codeActionsOnSave": {
-		"source.biome": "explicit"
+		"source.biome": "never"
 	},
 }

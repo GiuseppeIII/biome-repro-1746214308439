@@ -1,0 +1,17 @@
+// pnpx @biomejs/biome@2.0.0-beta.2 check src/5851-repro.jsonc
+// should give:
+// Checked 1 file in 738µs. No fixes applied.
+
+// pnpx @biomejs/biome@2.0.0-beta.2 check src/5851-repro.jsonc --fix however
+// will give Checked 1 file in 1095µs. Fixed 1 file.
+// and update the file to:
+// {
+// 	"a": 1,
+// 	"b": 2,
+// 	"c": 3
+// }
+{
+	"a": 1,
+	"c": 3,
+	"b": 2
+}
